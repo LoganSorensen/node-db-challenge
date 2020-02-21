@@ -38,13 +38,22 @@ Commit your code regularly and use descriptive messages. This helps both you (in
 
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain the difference between `Relational Databases` and `SQL`.
+- [X] Explain the difference between `Relational Databases` and `SQL`.
+
+  - A relational database is a way to store data, and this data is formatted into columns and rows. SQL (Structured Query Language) is used to manage the database and to retrieve the data within.
 
 - [ ] Why do tables need a `primary key`?
 
+  - The primary key is used to indentify each piece of data in a table. It can also be used by other tables as a reference point.
+
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+  - The column is known as the foreign key.
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+  - When two tables have a many to many relationship, they require a third table to act as an intermediary.
+
 
 ## Minimum Viable Product
 
